@@ -21,7 +21,7 @@ Clone this branch securely straight into your home base path framework directory
 cd ~
 
 # 2. Clone the dotfiles tree structure
-git clone [https://github.com/EiJackGH/dotfiles-yosemite.git](https://github.com/EiJackGH/dotfiles-yosemite.git) .dotfiles_temp
+git clone https://github.com/EiJackGH/dotfiles-yosemite.git
 
 # 3. Synchronize assets into production workspace paths
 cp .dotfiles_temp/.bash_profile ~
