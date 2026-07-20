@@ -44,6 +44,3 @@ cp .dotfiles_temp/.vimrc ~
 cp .dotfiles_temp/.tmux.conf ~
 cp .dotfiles_temp/Brewfile ~
 cp .dotfiles_temp/yosemite_defaults.sh ~
-
-# Source fresh changes directly
-source ~/.bash_profile
