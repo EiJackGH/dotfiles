@@ -26,3 +26,7 @@ alias fix-perms="sudo diskutil repairPermissions /"
 if [ -f /usr/local/bin/git ]; then
     export GIT_EXEC_PATH="/usr/local/libexec/git-core"
 fi
+
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
