@@ -36,3 +36,14 @@ chmod +x ~/yosemite_defaults.sh
 
 # 6. Source the newly mapped execution environment
 source ~/.bash_profile
+
+# Synchronize full configuration collection
+cp .dotfiles_temp/.bash_profile ~
+cp .dotfiles_temp/.bashrc ~
+cp .dotfiles_temp/.vimrc ~
+cp .dotfiles_temp/.tmux.conf ~
+cp .dotfiles_temp/Brewfile ~
+cp .dotfiles_temp/yosemite_defaults.sh ~
+
+# Source fresh changes directly
+source ~/.bash_profile
